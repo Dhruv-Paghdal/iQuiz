@@ -19,6 +19,7 @@ const Result = () => {
             if(e.score===1){
                 temp=temp+1;
             }
+            return temp;
         });
         return temp;
     }
@@ -28,12 +29,12 @@ const Result = () => {
     }
     return (
         <div>
-        <h2 className="text-center my-4 text-light" style={{position:'relative',fontWeight:"400"}}>
+        <h2 className="text-center my-4 text-light" style={{position:'relative',width:"97%",fontWeight:"400"}}>
             {userData.name} Your Score is {`${evaluateScore()} / ${newQuestion.length}`}
             <Sparkle 
                 color={"rgba(255, 255, 255, 0.616)"} 
                 minSize={6}
-                maxSize={12}
+                maxSize={10}
                 count={50}
                 flickerSpeed={'normal'}
                 fadeOutSpeed={50}
