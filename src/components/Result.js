@@ -32,12 +32,9 @@ const Result = () => {
         <h2 className="text-center my-4 text-light" style={{position:'relative',width:"97%",fontWeight:"400"}}>
             {userData.name} Your Score is {`${evaluateScore()} / ${newQuestion.length}`}
             <Sparkle 
-                color={"rgba(255, 255, 255, 0.616)"} 
-                minSize={6}
+                flicker={false}
+                minSize={5}
                 maxSize={10}
-                count={50}
-                flickerSpeed={'normal'}
-                fadeOutSpeed={50}
             />
         </h2>
         <div >
