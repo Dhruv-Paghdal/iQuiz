@@ -27,7 +27,6 @@ const QuizState = (props) => {
     const fetchApi = async ()=>{
         setProgress(40);
         const api= `https://opentdb.com/api.php?category=${userData.category}&amount=${userData.queNum}&difficulty=${userData.difficulty}&type=${userData.type}`;
-        console.log(api);
         setProgress(95);
         const respose = await fetch(api);
         const json = await respose.json();
