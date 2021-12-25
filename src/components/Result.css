@@ -1,0 +1,17 @@
+.opBtn{
+    border: 2px solid rgba(0, 0, 0, 0.329); 
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    background-color: transparent;
+    margin-top: 0.5em;
+    margin-bottom: 0.5rem;
+}
+
+.rBtn:hover{
+background-color: rgba(248, 248, 248, 0.842);
+}
+
+ul{
+    padding: 0%;
+}

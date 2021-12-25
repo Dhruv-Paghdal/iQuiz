@@ -1,0 +1,11 @@
+.optBtn{
+    border: 2px solid #2193b0c9; 
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+}
+
+.optBtn:hover{
+    background: #2193b0c9; 
+    color: white;
+}

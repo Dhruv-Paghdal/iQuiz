@@ -1,0 +1,16 @@
+.homeSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+select,option{
+    font-weight: 350 !important;
+    color: whitesmoke !important;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
