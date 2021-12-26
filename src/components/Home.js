@@ -80,7 +80,6 @@ const Home = () => {
            <LoadingBar
                 color='#2193b0'
                 progress={progress}
-                onLoaderFinished={() => setProgress(0)}
             />
         </div>
     )
