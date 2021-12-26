@@ -16,8 +16,15 @@ const Home = () => {
 
     const handelClick=async (event)=>{
         event.preventDefault();
-        await fetchApi();
-        navigate("/quiz");
+        if((queNum>=1)&&(queNum<=50)){
+            await fetchApi();
+            navigate("/quiz");
+            setProgress(100);
+        }
+        else{
+            alert("Please Enter A Valid Num");
+            window.location.reload(false);
+        }
     }
     
     return (
