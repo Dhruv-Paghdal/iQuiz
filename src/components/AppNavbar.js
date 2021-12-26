@@ -8,7 +8,7 @@ const AppNavbar = () => {
     
     return (
         <>
-           <Navbar bg="light" expand="lg">
+           <Navbar bg="dark" expand="lg">
                 <Container>
                     <Navbar.Brand to="/">i<span style={{color:"rgb(13, 131, 170)"}}>Quiz</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
