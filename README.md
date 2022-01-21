@@ -2,7 +2,7 @@
 
 * This project is built using ReactJS.
 
-* For Demo Visit:- https://iquiz-app.netlify.app/
+* For Demo Visit : https://iquiz-app.netlify.app/
 
 * An real time quiz app that help's you to sharpen your knowledge.
 
